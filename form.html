@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="shortcut icon" href="./img/Logo Buyer store 36px.png">
+    <link rel="stylesheet" href="./CSS/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav class="menu__general">
+            <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./aboutus.html">Sobre Nosotros</a></li>
+                <li><a href="./form.html"> Formulario de contacto</a></li>
+                <li><a href="./listas.html"> Productos en stock</a></li>
+                <li><a href="./multimedia.html"> videos de reseña productos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Formulario de contacto</h1>
+
+    <form action="enviar.php" class="form">
+
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" placeholder="Ingrese su nombre" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="producto">Producto de interés</label>
+            <input type="radio" name="producto1" id="producto1"> Maceta levitante
+            <input type="radio" name="producto2" id="producto2"> Cargador inalambrico universal
+            <input type="radio" name="producto3" id="producto3"> Lámpara inteligente
+            <input type="radio" name="producto4" id="producto4"> Cargador usb de 8 puertos
+            <input type="radio" name="producto5" id="producto5"> Mini altavoz Bluetooth
+            <input type="radio" name="producto6" id="producto6"> Temporadizador Led
+        </div>
+        <br>
+        <div>
+            <label for="caja">Comentarios</label>
+            <textarea name="caja" id="caja" cols="30" rows="5"></textarea>
+        </div>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar todo">
+
+        <br><br>
+
+        <footer>
+            <nav id="footer">
+                <div class="footer__tittle">Redes</div>
+                <div class="cont__facebook">
+                    <img src="./img/icons8-facebook-messenger-150.png" alt="facebook" class="facebook"><div>Facebook</div>
+                </div>
+                <div class="cont__instagram">
+                    <img src="./img/icons8-instagram-150.png" alt="instagram" class="instagram"><div>Instagram</div>
+                </div>
+                <div class="cont__whatsapp">
+                    <img src="./img/icons8-whatsapp-150.png" alt="whatsapp" class="whatsapp"><div>Whatsapp</div>
+                </div>
+            </nav>
+        </footer>
+
+    </form>
+
+</body>
+</html>

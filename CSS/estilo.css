@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono&display=swap');
+
+body {
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Spline Sans Mono', monospace;
+    background-image: url(../img/abstract-banner-background-with-red-shapes_1361-3348\ \(1\).webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    
+}
+
+h1 {
+    color: yellow;
+    font-size: 36px;
+}
+
+.título {
+    text-align: center;
+    color: lawngreen;
+    font-size: 40px;
+}
+
+.logo {
+    width: 200px;
+    position:relative;
+}
+header {
+    font-size: 25px;
+}
+
+footer {
+    font-size: 25px;
+    list-style: none;
+}
+
+h2 {
+    color: yellow;
+    font-size: 30px;
+}
+
+.maceta {
+    width: 300px;
+    position:relative;
+}
+.menu__general ul li {
+    list-style: none;
+    display: inline-block;
+    border: 2px solid rgb(0, 102, 136);
+    border-style: double;
+    border-width: 5px;
+    padding: 20px;
+    background-color: aqua;
+    overflow: hidden;
+}
+
+.caja__texto {
+    width: 50%;
+    margin: auto;
+    padding: 20px 40px;
+    color: rgb(211, 255, 255);
+    font-size: 24px;
+    margin-bottom: 2cm;
+    border: 2px solid yellow;
+    overflow: auto;
+}
+
+.form {
+    color: rgb(211, 255, 255)
+}
+
+.video {
+    width: 800px;
+    height: 500px;
+}
+
+.imagen__producto {
+    width: 300px;
+    height: 300px;
+}
+
+footer ul li {
+    list-style: none;
+    margin: 5px;
+}
+
+.facebook {
+    background-color: white;
+    width: 30px;
+    border: 2px solid rgb(0, 102, 136);
+    border-style: double;
+    border-width: 5px;
+    padding: 20px;
+    background-color: aqua;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.instagram {
+    background-color: white;
+    width: 30px;
+    border: 2px solid rgb(0, 102, 136);
+    border-style: double;
+    border-width: 5px;
+    padding: 20px;
+    background-color: aqua;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.whatsapp {
+    background-color: white;
+    width: 30px;
+    border: 2px solid rgb(0, 102, 136);
+    border-style: double;
+    border-width: 5px;
+    padding: 20px;
+    background-color: aqua;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.tienda {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+#footer {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "facebook instagram whatsapp";
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer__tittle {
+    grid-area: header;
+    margin-bottom: 30px;
+}
+
+.cont__facebook {
+    grid-area: facebook;
+}
+
+.cont__instagram {
+    grid-area: instagram;
+}
+
+.cont__whatsapp {
+    grid-area: whatsapp;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+    .video {
+        max-width: 100%;
+    }
+    .tienda {
+        max-width: 100%;
+        width: auto;
+        height: auto;
+    }
+    #footer div div {
+        display: none;
+    }
+}
+
+input {
+    width: 150px;
+    transition: all 1s;
+}
+#nombre:hover {
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+}
+#email:hover {
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+}
+#caja:hover {
+    width: 400px;
+    height: 150px;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+}
+
+@keyframes new {
+    0% {
+        width: 25%;
+    }
+    50% {
+        width: 50%;
+        background-color: white;
+    }
+    100% {
+        width: 100%;
+        background-color: black;
+    }
+}
+
+.new {
+    background-color: black;
+    animation-name: new;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
