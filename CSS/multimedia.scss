@@ -1,0 +1,96 @@
+body {
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Spline Sans Mono', monospace;
+    background-image: url(../img/abstract-banner-background-with-red-shapes_1361-3348\ \(1\).webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+}
+
+header {
+    font-size: 25px
+    menu__general {
+        ul {
+            li {
+                list-style: none;
+                display: inline-block;
+                border: 2px solid rgb(0, 102, 136);
+                border-style: double;
+                border-width: 5px;
+                padding: 20px;
+                background-color: aqua;
+                overflow: hidden;
+            }
+        }
+
+    }
+}
+
+h1 {
+    color: yellow;
+    font-size: 36px;
+}
+
+.video {
+    width: 800px;
+    height: 500px;
+}
+
+footer {
+    font-size: 25px;
+    list-style: none;
+    #footer {
+        display: grid;
+        grid-template-areas: 
+        "header header header"
+        "facebook instagram whatsapp";
+        grid-template-columns: 1fr 1fr 1fr;
+        &__tittle {
+            grid-area: header;
+            margin-bottom: 30px;
+        }
+        .cont__facebook {
+            grid-area: facebook
+            & {
+                background-color: white;
+                width: 30px;
+                border: 2px solid rgb(0, 102, 136);
+                border-style: double;
+                border-width: 5px;
+                padding: 20px;
+                background-color: aqua;
+                overflow: hidden;
+                margin: 5px;
+                    }
+                }
+            .cont__instagram {
+                grid-area: instagram
+                & {
+                    background-color: white;
+                    width: 30px;
+                    border: 2px solid rgb(0, 102, 136);
+                    border-style: double;
+                    border-width: 5px;
+                    padding: 20px;
+                    background-color: aqua;
+                    overflow: hidden;
+                    margin: 5px;
+                    }
+                }
+            .cont__whatsapp {
+                grid-area: whatsapp
+                & {
+                    background-color: white;
+                    width: 30px;
+                    border: 2px solid rgb(0, 102, 136);
+                    border-style: double;
+                    border-width: 5px;
+                    padding: 20px;
+                    background-color: aqua;
+                    overflow: hidden;
+                    margin: 5px;
+                    }
+                }
+    }
+}
