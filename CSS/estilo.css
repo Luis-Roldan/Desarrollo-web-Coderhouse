@@ -218,3 +218,10 @@ input {
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
+
+.menu__general a:hover {
+    background-color: yellowgreen;
+}
+a:active {
+    color: azure;
+}
