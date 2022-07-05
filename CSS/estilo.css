@@ -5,6 +5,7 @@ body {
     background-image: url(../img/abstract-banner-background-with-red-shapes_1361-3348\ \(1\).webp);
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 100vh;
 }
 
 h1 {
@@ -45,6 +46,11 @@ h2 {
     width: 300px;
     position:relative;
 }
+
+.navbar-brand {
+    color: aliceblue !important;
+}
+
 .menu__general ul li {
     list-style: none;
     display: inline-block;
@@ -84,7 +90,6 @@ h2 {
 div {
     color: aliceblue;
 }
-
 .facebook {
     width: 50px;
     border: 2px solid rgb(0, 102, 136);
