@@ -15,31 +15,35 @@
 </head>
 
 <body>
-
-    <Header>
-        <nav class="navbar navbar-expand-lg bg-dark menu__general" >
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Home</a>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="./aboutus.html">Nosotros</a>
-                    </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./form.html">Formulario</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./listas.html">Productos en stock</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./multimedia.html">Videos</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </Header>
-
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark menu__general" >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="img/Logo Buyer store 36px.png" alt="Buyer Store"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./listas.html">Productos en stock</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./aboutus.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./multimedia.html">Videos de productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./form.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
     <h1 class="título">Buyer Store</h1>
 
@@ -54,15 +58,16 @@
 
     <br><hr>
 
-    <h2 strong class="new">Nuevo Producto</h2>
-
-    <img src="./img/maceta levitante.jpg" alt="maceta levitante" class= "maceta">
-
-    <br><br>
-
-    <div class="caja__texto">
-        <p class="animate__animated animate__fadeInDown">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum mollitia veniam voluptatum, tempore facere sed quaerat, sapiente debitis culpa maiores, vel ullam adipisci saepe inventore modi quibusdam et ipsam minima.</p>
-    </div>
+    <h2 strong class="new text-center">Nuevo Producto</h2>
+    <div class="row py-3 d-flex justify-content-center">
+      <div class="card mx-2" style="width: 18rem;">
+        <img src="./img/maceta levitante.jpg" class="card-img-top maceta" alt="maceta levitante">
+        <div class="card-body">
+          <h5 class="card-title">Maceta levitante</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus animi dolorem numquam similique beatae inventore perspiciatis facere sit tempora, obcaecati veritatis, blanditiis quidem debitis optio libero consequuntur quas laborum. Quam.</p>
+          <a href="#" class="btn btn-dark">Comprar</a>
+        </div>
+      </div>
 
     <br><br>
 

@@ -44,11 +44,16 @@ h2 {
 
 .maceta {
     width: 300px;
-    position:relative;
+    position:flex;
 }
 
 .navbar-brand {
-    color: aliceblue !important;
+    color: black !important;
+    font-size: 1px;
+}
+
+.card-body {
+    background-color: black;
 }
 
 .menu__general ul li {
@@ -57,11 +62,15 @@ h2 {
     border: 2px solid rgb(0, 102, 136);
     border-style: double;
     border-width: 5px;
-    padding: 20px;
-    background-color: aqua;
+    padding: 10px;
+    background-color: blue;
     overflow: hidden;
+    align-content: center;
 }
 
+.card {
+    align-items: center;
+}
 .caja__texto {
     width: 50%;
     margin: auto;
@@ -222,7 +231,9 @@ input {
 }
 
 .menu__general a:hover {
+    color: black;
     background-color: yellowgreen;
+    background-size: auto;
 }
 a:active {
     color: azure;

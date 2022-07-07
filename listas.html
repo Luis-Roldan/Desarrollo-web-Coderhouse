@@ -14,68 +14,101 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-
-    <Header>
-        <nav class="navbar navbar-expand-lg bg-dark menu__general" >
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Productos en stock</a>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark menu__general" >
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="img/Logo Buyer store 36px.png" alt="Buyer Store"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="./index.html">Home</a>
-                    </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./aboutus.html">Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./form.html">Formulario</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./multimedia.html">Videos</a>
-                  </li>
-                </ul>
-              </div>
+                  <a class="nav-link active" aria-current="page" href="./listas.html">Productos en stock</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./aboutus.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./multimedia.html">Videos de productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./form.html">Contacto</a>
+                </li>
+              </ul>
             </div>
-          </nav>
-        </Header>
+          </div>
+        </nav>
+      </header>
 
-    <h1 strong>Nuevo Producto</h1>
-    <img src="./img/maceta levitante.jpg" alt="maceta levitante" class="imagen__producto">
-    <br>
-    <div class="caja__texto">
-        <p class="animate__animated animate__fadeInDown">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum mollitia veniam voluptatum, tempore facere sed quaerat, sapiente debitis culpa maiores, vel ullam adipisci saepe inventore modi quibusdam et ipsam minima.</p>
-    </div>
-    <br>
-    <h2 strong>Lista de productos</h2>
-    <img src="./img/cargador inalambrico universal.jpg" alt="cargador inalambrico universal" class="imagen__producto">
-    <br>
-    <div class="caja__texto">
-        <p class="animate__animated animate__fadeInDown">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum mollitia veniam voluptatum, tempore facere sed quaerat, sapiente debitis culpa maiores, vel ullam adipisci saepe inventore modi quibusdam et ipsam minima.</p>
-    </div>
-    <br>
-    <img src="./img/Lampara inteligente.jpg" alt="lámpara inteligente" class="imagen__producto">
-    <br>
-    <div class="caja__texto">
-        <p class="animate__animated animate__fadeInDown">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum mollitia veniam voluptatum, tempore facere sed quaerat, sapiente debitis culpa maiores, vel ullam adipisci saepe inventore modi quibusdam et ipsam minima.</p>
-    </div>
-    <br>
-    <img src="./img/cargador usb de 8 puertos.jpg" alt="cargador usb de 8 puertos" class="imagen__producto">
-    <br>
-    <div class="caja__texto">
-        <p class="animate__animated animate__fadeInDown">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum mollitia veniam voluptatum, tempore facere sed quaerat, sapiente debitis culpa maiores, vel ullam adipisci saepe inventore modi quibusdam et ipsam minima.</p>
-    </div>
-    <br>
-    <img src="./img/Mini atavoz bluetooth.jpg" alt="mini altavoz bluetooth" class="imagen__producto">
-    <br>
-    <div class="caja__texto">
-        <p class="animate__animated animate__fadeInDown">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum mollitia veniam voluptatum, tempore facere sed quaerat, sapiente debitis culpa maiores, vel ullam adipisci saepe inventore modi quibusdam et ipsam minima.</p>
-    </div>
-    <br>
-    <img src="./img/temporadizador Led.jpg" alt="Temporadizador Led" class="imagen__producto">
-    <br>
-    <div class="caja__texto">
-        <p class="animate__animated animate__fadeInDown">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum mollitia veniam voluptatum, tempore facere sed quaerat, sapiente debitis culpa maiores, vel ullam adipisci saepe inventore modi quibusdam et ipsam minima.</p>
-    </div>
+<hr><hr>
+
+      <h1 strong class="text-center">Productos en stock</h1>
+      <hr><hr>
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/cargador inalambrico universal.jpg" class="d-block w-100" alt="cargador universal">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/cargador usb de 8 puertos.jpg" class="d-block w-100" alt="cargador usb">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Lampara inteligente.jpg" class="d-block w-100" alt="lampara inteligente">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Mini atavoz bluetooth.jpg" class="d-block w-100" alt="Mini altavoz">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <hr><hr>
+
+      <h2 strong class="new text-center">Nuevo Producto</h2>
+    <div class="row py-3 d-flex justify-content-center">
+      <div class="card mx-2" style="width: 18rem;">
+        <img src="./img/maceta levitante.jpg" class="card-img-top maceta" alt="maceta levitante">
+        <div class="card-body">
+          <h5 class="card-title">Maceta levitante</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus animi dolorem numquam similique beatae inventore perspiciatis facere sit tempora, obcaecati veritatis, blanditiis quidem debitis optio libero consequuntur quas laborum. Quam.</p>
+          <a href="#" class="btn btn-dark">Comprar</a>
+        </div>
+      </div>
     
     <br><br>
 
