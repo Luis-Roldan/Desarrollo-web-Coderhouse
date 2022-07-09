@@ -1,34 +1,17 @@
+$general-font: normal 20px 'Spline Sans Mono', monospace;
+
+
 body {
     background-color: black;
     color: aliceblue;
-    font-family: 'Spline Sans Mono', monospace;
+    font: $general-font;
     background-image: url(../img/abstract-banner-background-with-red-shapes_1361-3348\ \(1\).webp);
     background-repeat: no-repeat;
     background-size: cover;
-    font-size: 20px;
-}
-
-header {
-    font-size: 25px
-    menu__general {
-        ul {
-            li {
-                list-style: none;
-                display: inline-block;
-                border: 2px solid rgb(0, 102, 136);
-                border-style: double;
-                border-width: 5px;
-                padding: 20px;
-                background-color: aqua;
-                overflow: hidden;
-            }
-        }
-
-    }
-}
+}   
 
 h1 {
-    color: yellow;
+    color: yellow !important;
     font-size: 36px;
 }
 
@@ -36,6 +19,17 @@ h1 {
     width: 800px;
     height: 500px;
 }
+
+$estiloredes:(
+    widthred: 30px,
+    borderred: 2px solid rgb(0, 102, 136),
+    borderstyred: double,
+    bordwidthred: 5px,
+    paddingred: 20px,
+    bg: aqua,
+    overflowred: hidden,
+    marginred: 5px
+)
 
 footer {
     font-size: 25px;
@@ -53,44 +47,42 @@ footer {
         .cont__facebook {
             grid-area: facebook
             & {
-                background-color: white;
-                width: 30px;
-                border: 2px solid rgb(0, 102, 136);
-                border-style: double;
-                border-width: 5px;
-                padding: 20px;
-                background-color: aqua;
-                overflow: hidden;
-                margin: 5px;
+                background-color: map-get($estiloredes, bg);
+                width: map-get($estiloredes, widthred);
+                border: map-get($estiloredes, boderred);
+                border-style: map-get($estiloredes, borderstyred);
+                border-width: map-get($estiloredes, bordwidthred);
+                padding: map-get($estiloredes, paddingred);
+                overflow: map-get($estiloredes, overflowred);
+                margin: map-get($estiloredes, marginred);
                     }
                 }
             .cont__instagram {
                 grid-area: instagram
                 & {
-                    background-color: white;
-                    width: 30px;
-                    border: 2px solid rgb(0, 102, 136);
-                    border-style: double;
-                    border-width: 5px;
-                    padding: 20px;
-                    background-color: aqua;
-                    overflow: hidden;
-                    margin: 5px;
+                    background-color: map-get($estiloredes, bg);
+                width: map-get($estiloredes, widthred);
+                border: map-get($estiloredes, boderred);
+                border-style: map-get($estiloredes, borderstyred);
+                border-width: map-get($estiloredes, bordwidthred);
+                padding: map-get($estiloredes, paddingred);
+                overflow: map-get($estiloredes, overflowred);
+                margin: map-get($estiloredes, marginred);
                     }
                 }
             .cont__whatsapp {
                 grid-area: whatsapp
                 & {
-                    background-color: white;
-                    width: 30px;
-                    border: 2px solid rgb(0, 102, 136);
-                    border-style: double;
-                    border-width: 5px;
-                    padding: 20px;
-                    background-color: aqua;
-                    overflow: hidden;
-                    margin: 5px;
+                    background-color: map-get($estiloredes, bg);
+                width: map-get($estiloredes, widthred);
+                border: map-get($estiloredes, boderred);
+                border-style: map-get($estiloredes, borderstyred);
+                border-width: map-get($estiloredes, bordwidthred);
+                padding: map-get($estiloredes, paddingred);
+                overflow: map-get($estiloredes, overflowred);
+                margin: map-get($estiloredes, marginred);
                     }
                 }
     }
 }
+

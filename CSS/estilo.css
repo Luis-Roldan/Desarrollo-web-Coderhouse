@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Spline Sans Mono', monospace !important;
+    background-color: black;
     background-image: url(../img/abstract-banner-background-with-red-shapes_1361-3348\ \(1\).webp);
     background-repeat: no-repeat;
     background-size: cover;
@@ -57,8 +58,6 @@ h2 {
 }
 
 .menu__general ul li {
-    list-style: none;
-    display: inline-block;
     border: 2px solid rgb(0, 102, 136);
     border-style: double;
     border-width: 5px;
