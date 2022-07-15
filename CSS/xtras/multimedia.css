@@ -1,0 +1,58 @@
+@charset "UTF-8";
+body {
+  background-color: black;
+  color: aliceblue;
+  font: normal 20px "Spline Sans Mono", monospace;
+  background-image: url(../img/abstract-banner-background-with-red-shapes_1361-3348\ \(1\).webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: yellow !important;
+  font-size: 36px;
+}
+
+h2 {
+  color: yellow !important;
+  font-size: 30px;
+}
+
+.título {
+  text-align: center;
+  color: lawngreen;
+  font-size: 40px;
+}
+
+.logo {
+  width: 200px;
+  position: relative;
+}
+
+header {
+  font-size: 25px;
+}
+
+footer {
+  font-size: 25px;
+  list-style: none;
+}
+
+.video {
+  width: 800px;
+  height: 500px;
+}
+
+.maceta {
+  width: 300px;
+  position: flex;
+}
+
+.navbar-brand {
+  color: black !important;
+  font-size: 1px;
+}
+
+.card-body {
+  background-color: black;
+}/*# sourceMappingURL=multimedia.css.map */

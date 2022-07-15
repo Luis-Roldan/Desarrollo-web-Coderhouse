@@ -21,32 +21,18 @@ h2 {
 
 .título {
     text-align: center;
-    color: lawngreen;
     font-size: 40px;
 }
 
-.logo {
-    width: 200px;
-    position:relative;
-}
-
-header {
+body {
+    header {
     font-size: 25px;
+    }
 }
 
 footer {
     font-size: 25px;
     list-style: none;
-}
-
-h2 {
-    color: yellow;
-    font-size: 30px;
-}
-
-.maceta {
-    width: 300px;
-    position:flex;
 }
 
 .navbar-brand {
@@ -68,9 +54,6 @@ h2 {
     align-content: center;
 }
 
-.card {
-    align-items: center;
-}
 .caja__texto {
     width: 50%;
     margin: auto;
@@ -91,45 +74,8 @@ h2 {
     height: 500px;
 }
 
-.imagen__producto {
-    width: 300px;
-    height: 300px;
-}
-
 div {
     color: aliceblue;
-}
-.facebook {
-    width: 50px;
-    border: 2px solid rgb(0, 102, 136);
-    border-style: double;
-    border-width: 5px;
-    padding: 5px;
-    background-color: aqua;
-    overflow: hidden;
-    margin: 5px;
-}
-
-.instagram {
-    width: 50px;
-    border: 2px solid rgb(0, 102, 136);
-    border-style: double;
-    border-width: 5px;
-    padding: 5px;
-    background-color: aqua;
-    overflow: hidden;
-    margin: 5px;
-}
-
-.whatsapp {
-    width: 50px;
-    border: 2px solid rgb(0, 102, 136);
-    border-style: double;
-    border-width: 5px;
-    padding: 5px;
-    background-color: aqua;
-    overflow: hidden;
-    margin: 5px;
 }
 
 .tienda {
@@ -137,6 +83,54 @@ div {
     height: 400px;
     margin: 0 auto;
     display: block;
+}
+
+footer {
+    #footer {
+        font-size: 25px;
+        .cont__facebook {
+            size:300px;
+            size-adjust: auto;
+            .facebook {
+                width: 50px;
+                border: 2px solid rgb(0, 102, 136);
+                border-style: double;
+                border-width: 5px;
+                padding: 5px;
+                background-color: aqua !important;
+                overflow: hidden;
+                margin: 5px;
+                size-adjust: auto;
+                }
+            }
+        .cont__instagram {
+            .instagram {
+                width: 50px;
+                border: 2px solid rgb(0, 102, 136);
+                border-style: double;
+                border-width: 5px;
+                padding: 5px;
+                background-color: aqua;
+                overflow: hidden;
+                margin: 5px;
+                size-adjust: auto;
+                }
+            }
+        .cont__whatsapp {
+            .whatsapp {
+                width: 50px;
+                border: 2px solid rgb(0, 102, 136);
+                border-style: double;
+                border-width: 5px;
+                padding: 5px;
+                background-color: aqua;
+                overflow: hidden;
+                margin: 5px;
+                size-adjust: auto;
+                }
+            }
+        
+    }
 }
 
 #footer {
