@@ -258,4 +258,15 @@ input {
 
 a:active {
   color: azure;
+}
+
+@media screen and (min-width: 769px) {
+  .carousel-item {
+    max-height: 80vh;
+  }
+  .carousel-item img {
+    height: 100%;
+    width: auto !important;
+    margin: 0 auto;
+  }
 }/*# sourceMappingURL=newstyle.css.map */
