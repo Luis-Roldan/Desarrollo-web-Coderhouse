@@ -155,7 +155,8 @@ footer #footer .cont__whatsapp .whatsapp {
     font-size: 20px;
   }
   .caja__texto {
-    font-size: 15px;
+    font-size: 10px;
+    padding: 1px;
   }
   .card-text {
     font-size: 15px;
