@@ -24,10 +24,6 @@ h2 {
   font-size: 40px;
 }
 
-body header {
-  font-size: 25px;
-}
-
 footer {
   font-size: 25px;
   list-style: none;
@@ -149,7 +145,27 @@ footer #footer .cont__whatsapp .whatsapp {
 
 @media screen and (max-width: 768px) {
   body {
-    padding: 20px;
+    padding: 5px;
+  }
+  .título {
+    font-size: 25px;
+    margin-top: 15px;
+  }
+  .new {
+    font-size: 20px;
+  }
+  .caja__texto {
+    font-size: 15px;
+  }
+  .card-text {
+    font-size: 15px;
+  }
+  #caja {
+    max-width: 250px;
+  }
+  .footer__tittle {
+    font-size: 20px;
+    margin-top: 10px;
   }
   .video {
     max-width: 100%;
@@ -185,8 +201,8 @@ input {
 }
 
 #caja:hover {
-  width: 400px;
-  height: 150px;
+  width: 900px;
+  height: 200px;
   background-color: white;
   color: black;
   font-size: 30px;
