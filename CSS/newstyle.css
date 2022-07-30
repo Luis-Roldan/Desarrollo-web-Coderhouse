@@ -177,6 +177,7 @@ footer #footer .cont__whatsapp .whatsapp {
   .formlist {
     display: inline-block;
     justify-content: left;
+    padding-left: 0 !important;
   }
   #producto1 {
     display: grid;
@@ -195,12 +196,12 @@ footer #footer .cont__whatsapp .whatsapp {
   }
 }
 input {
-  width: 150px;
+  width: 100px;
   transition: all 1s;
 }
 
 #nombre:hover {
-  width: 300px;
+  width: 350px;
   height: 100px;
   background-color: white;
   color: black;
@@ -299,6 +300,8 @@ main, footer {
   background-color: blue;
   overflow: hidden;
   align-content: center;
+  width: 100%;
+  justify-content: space-evenly;
 }
 
 .navbar-nav a:hover {
