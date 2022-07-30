@@ -38,16 +38,6 @@ footer {
   background-color: black;
 }
 
-.menu__general ul li {
-  border: 2px solid rgb(0, 102, 136);
-  border-style: double;
-  border-width: 5px;
-  padding: 10px;
-  background-color: blue;
-  overflow: hidden;
-  align-content: center;
-}
-
 .caja__texto {
   width: 50%;
   margin: auto;
@@ -66,6 +56,8 @@ footer {
 .video {
   width: 800px;
   height: 500px;
+  margin: 0 auto;
+  display: block;
 }
 
 div {
@@ -80,7 +72,7 @@ div {
 }
 
 footer #footer {
-  font-size: 25px;
+  font-size: 15px;
 }
 footer #footer .cont__facebook {
   size: 300px;
@@ -179,6 +171,28 @@ footer #footer .cont__whatsapp .whatsapp {
   #footer div div {
     display: none;
   }
+  main {
+    padding: 10px;
+  }
+  .formlist {
+    display: inline-block;
+    justify-content: left;
+  }
+  #producto1 {
+    display: grid;
+  }
+  #producto2 {
+    display: grid;
+  }
+  #producto3 {
+    display: grid;
+  }
+  #producto4 {
+    display: grid;
+  }
+  #producto5 {
+    display: grid;
+  }
 }
 input {
   width: 150px;
@@ -250,16 +264,6 @@ input {
           animation-timing-function: linear;
 }
 
-.menu__general a:hover {
-  color: black;
-  background-color: yellowgreen;
-  background-size: auto;
-}
-
-a:active {
-  color: azure;
-}
-
 @media screen and (min-width: 769px) {
   .carousel-item {
     max-height: 80vh;
@@ -273,4 +277,36 @@ a:active {
 .carousel-caption {
   background: rgba(128, 128, 128, 0.6509803922);
   bottom: 0 !important;
+}
+
+main, footer {
+  padding: 25px;
+}
+
+.formsub {
+  font-size: 20px;
+}
+
+.formlist {
+  list-style: none;
+}
+
+.navbar-nav {
+  border: 2px solid rgb(0, 102, 136);
+  border-style: double;
+  border-width: 5px;
+  padding: 10px;
+  background-color: blue;
+  overflow: hidden;
+  align-content: center;
+}
+
+.navbar-nav a:hover {
+  color: black;
+  background-color: yellowgreen;
+  background-size: auto;
+}
+
+a:active {
+  color: azure;
 }/*# sourceMappingURL=newstyle.css.map */

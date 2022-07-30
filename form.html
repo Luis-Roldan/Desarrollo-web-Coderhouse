@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de contacto</title>
-    <meta name="keywords" content="tienda, tecnologia, innovacion, novedades">
-    <meta name="description" content="Formulario de contacto para enviar comentarios, reclamos y felicitaciones a Buyer store">
-    <link rel="shortcut icon" href="./img/Logo Buyer store 36px.png">
-    <link rel="stylesheet" href="./CSS/newstyle.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- bootstrap CSS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de contacto</title>
+  <meta name="keywords" content="tienda, tecnologia, innovacion, novedades">
+  <meta name="description" content="Formulario de contacto para enviar comentarios, reclamos y felicitaciones a Buyer store">
+  <link rel="shortcut icon" href="./img/Logo Buyer store 36px.png">
+  <link rel="stylesheet" href="./CSS/newstyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- bootstrap CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -27,9 +27,6 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./form.html">Contacto</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="./index.html">Home</a>
           </li>
           <li class="nav-item">
@@ -41,6 +38,9 @@
           <li class="nav-item">
             <a class="nav-link" href="./multimedia.html">Videos de productos</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./form.html">Contacto</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -49,31 +49,39 @@
 
 <main>
   <h1>Formulario de contacto</h1>
+  <br><br>
   <form action="enviar.php" class="form">
     <div>
-      <label for="nombre">Nombre</label>
+      <label class="formsub" for="nombre">Nombre</label>
       <input type="text" id="nombre" placeholder="Ingrese su nombre" required>
     </div>
-    <br>
+    <br><br>
     <div>
-      <label for="email">Email</label>
+      <label class="formsub" for="email">Email</label>
       <input type="email" id="email">
     </div>
-    <br>
+    <br><br>
     <div>
-      <label for="producto">Producto de interés</label>
-      <input type="radio" name="producto1" id="producto1"> Maceta levitante
-      <input type="radio" name="producto2" id="producto2"> Cargador inalambrico universal
-      <input type="radio" name="producto3" id="producto3"> Lámpara inteligente
-      <input type="radio" name="producto4" id="producto4"> Cargador usb de 8 puertos
-      <input type="radio" name="producto5" id="producto5"> Mini altavoz Bluetooth
+      <label class="formsub" for="producto">Producto de interés</label>
+      <br><br>
+      <ul class="formlist">
+        <li><input type="radio" name="producto1" id="producto1"> Maceta levitante</li>
+        <br>
+        <li><input type="radio" name="producto2" id="producto2"> Cargador inalambrico universal</li>
+        <br>
+        <li><input type="radio" name="producto3" id="producto3"> Lámpara inteligente</li>
+        <br>
+        <li><input type="radio" name="producto4" id="producto4"> Cargador usb de 8 puertos</li>
+        <br>
+        <li><input type="radio" name="producto5" id="producto5"> Mini altavoz Bluetooth</li>
+      </ul>
     </div>
-    <br>
+    <br><br>
     <div>
-      <label for="caja">Comentarios</label>
+      <label class="formsub" for="caja">Comentarios</label>
       <textarea name="caja" id="caja" cols="30" rows="5" class="commentbox"></textarea>
     </div>
-    <br>
+    <br><br>
     <a class="btn btn-primary" href="#" role="button">Enviar</a>
     <button class="btn btn-primary" type="submit">cancelar</button>
   </form>
@@ -84,13 +92,13 @@
   <nav id="footer">
     <div class="footer__tittle">Redes</div>
     <div class="cont__facebook">
-      <img src="./img/icons8-facebook-messenger-150.png" alt="facebook" class="facebook"><div>Facebook</div>
+      <img src="./img/icons8-facebook-messenger-150.png" alt="facebook" class="facebook"><a href="https://www.facebook.com/">Facebook</a>
     </div>
     <div class="cont__instagram">
-      <img src="./img/icons8-instagram-150.png" alt="instagram" class="instagram"><div>Instagram</div>
+      <img src="./img/icons8-instagram-150.png" alt="instagram" class="instagram"><a href="https://www.instagram.com/">Instagram</a>
     </div>
     <div class="cont__whatsapp">
-      <img src="./img/icons8-whatsapp-150.png" alt="whatsapp" class="whatsapp"><div>Whatsapp</div>
+      <img src="./img/icons8-whatsapp-150.png" alt="whatsapp" class="whatsapp"><a href="https://www.whatsapp.com/?lang=es">Whatsapp</a>
     </div>
   </nav>
 </footer>
